@@ -24,7 +24,7 @@ const SubHeading = () => {
         <div
             ref={ref}
             className="w-full lg:px-28 md:px-28 sm:px-28 xs:px-5 lg:py-40 md:py-20 sm:py-20 xs:py-20">
-            <div className="lg:px-52 md:px-28">
+            <div className="lg:px-52 md:px-28" id="subheading">
                 <motion.p
                     initial={{
                     opacity: 0,

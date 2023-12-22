@@ -40,9 +40,9 @@ const GalleryItem = ({src, alt}) => {
 
 const Gallery = () => {
     return (
-        <div className="w-full lg:px-28 md:px-28 sm:px-5 xs:px-5">
+        <div className="w-full lg:px-28 md:px-28 sm:px-5 xs:px-5" id="gallery">
             {/* Desktop Layout */}
-            <div className="lg:block md:hidden sm:hidden xs:hidden">
+            <div className="lg:block md:hidden sm:hidden xs:hidden"> 
                 <div className="flex items-stretch gap-5 pb-5">
                     <div className=" h-full object-cover object-center">
                         <GalleryItem src={gallery1} alt="cottage-gallery"></GalleryItem>

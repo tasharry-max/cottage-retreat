@@ -8,6 +8,7 @@ const FaqSection = () => {
 
     return (
         <motion.div
+            id="faqsection"
             className="xl:px-52 lg:px-52 md:px-28 sm:px-5 xs:px-5 lg:pt-40 md:pt-40 sm:pt-10 xs:pt-10"
             initial={{
             opacity: 0,

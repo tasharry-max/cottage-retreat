@@ -15,11 +15,11 @@ const NavBar = () => {
             <div className="logo text-green-100 font-bold text-sm leading-6 uppercase">Cottage Retreat</div>
             <nav className=" text-green-100 text-sm leading-6 hidden md:flex gap-5">
                 <a
-                    className="mr-5 relative text-white no-underline overflow-hidden group cursor-pointer">Nav button 01</a>
+                    className="mr-5 relative text-white no-underline overflow-hidden group cursor-pointer" href="#subheading">Nav button 01</a>
                 <a
-                    className="mr-5 relative text-white no-underline overflow-hidden group cursor-pointer">Nav button 02</a>
+                    className="mr-5 relative text-white no-underline overflow-hidden group cursor-pointer" href="#gallery">Nav button 02</a>
                 <a
-                    className="relative text-white no-underline overflow-hidden group cursor-pointer">Nav button 03</a>
+                    className="relative text-white no-underline overflow-hidden group cursor-pointer" href="#faqsection">Nav button 03</a>
             </nav>
 
             <nav
@@ -30,9 +30,9 @@ const NavBar = () => {
                     className="logo text-white font-bold text-xs leading-5 tracking-wide uppercase py-8 pl-5">Cottage Retreat</div>
                 <div className="flex flex-col justify-between">
                     <div className="flex flex-col pl-5 text-3xl gap-7 pt-14 ">
-                        <a href="#" className="">Nav button 01</a>
-                        <a href="#" className="">Nav button 02</a>
-                        <a href="#" className="">Nav button 03</a>
+                        <a href="#subheading" className="">Nav button 01</a>
+                        <a href="#gallery" className="">Nav button 02</a>
+                        <a href="#faqsection" className="">Nav button 03</a>
                     </div>
                     <div className="flex flex-col absolute bottom-10 left-5 privacy text-sm text-white-100 font-light gap-3">
                         <a href="">Privacy</a>

@@ -12,9 +12,9 @@ const Footer = () => {
                 <div className="logo text-green-100 font-bold text-sm leading-6 uppercase">Cottage Retreat</div>
                 <nav
                     className=" text-green-100 text-sm leading-6 xl:flex-row lg:flex-row md:flex-row sm:flex xs:flex xs:flex-col lg:gap-5 md:gap-5 sm:gap-4 xs:gap-4 lg:pt-0 md:pt-0 sm:pt-0 xs:pt-12">
-                    <a className="mr-5 relative text-white no-underline cursor-pointer group">Nav button 01</a>
-                    <a className="mr-5 relative text-white no-underline  cursor-pointer group">Nav button 02</a>
-                    <a className="text-white relative no-underline group cursor-pointer group">Nav button 03</a>
+                    <a className="mr-5 relative text-white no-underline cursor-pointer group" href="#subheading">Nav button 01</a>
+                    <a className="mr-5 relative text-white no-underline  cursor-pointer group" href="#gallery">Nav button 02</a>
+                    <a className="text-white relative no-underline group cursor-pointer group" href="#faqsection">Nav button 03</a>
                     <a
                         className="text-white relative no-underline group cursor-pointer xl:hidden lg:hidden md:hidden sm:hidden">Privacy</a>
                     <a
