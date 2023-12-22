@@ -11,7 +11,7 @@ const NavBar = () => {
 
     return (
         <div
-            className="w-full fixed  flex justify-between items-center lg:px-28 md:px-28 sm:px-5 xs:px-5 lg:pt-10 md:pt-10 sm:py-8 xs:py-8">
+            className="w-full sticky  flex justify-between items-center lg:px-28 md:px-28 sm:px-5 xs:px-5 lg:pt-10 md:pt-10 sm:py-8 xs:py-8">
             <div className="logo text-green-100 font-bold text-sm leading-6 uppercase">Cottage Retreat</div>
             <nav className=" text-green-100 text-sm leading-6 hidden md:flex gap-5">
                 <a
